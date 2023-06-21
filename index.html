@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A.Rodar FoodFilm</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Carga Font Awesome para los íconos de las redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Ajusta el tamaño del logo */
+        .logo {
+            width: 100%;  /* Cambia esto para ajustar el tamaño del logo */
+        }
+
+        /* Establece el ancho y la altura de los vídeos al 100% */
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilos para los enlaces */
+        a {
+            color: #000;  /* Cambia esto para ajustar el color del texto */
+            text-decoration: none;
+            transition: color .3s ease;
+        }
+
+        a:hover {
+            color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
+        }
+
+        /* Estilos para los hr */
+        hr {
+            border-top: 3px solid black;  /* Cambia esto para ajustar el grosor y color de los hr */
+        }
+
+        /* Estilos para dispositivos más grandes */
+        @media (min-width: 768px) {
+            .logo {
+                width: 50%;
+            }
+        }
+
+        /* Estilo para la segunda columna */
+        .bg-navbar {
+            background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
+        }
+
+        /* Estilos para las fuentes */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        h1 {
+            font-weight: normal;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+
+        h2.strong {
+            font-weight: bold;
+        }
+
+        /* Estilos para los íconos de redes sociales */
+        .fab {
+            transition: color .3s ease;
+        }
+
+        .fa-instagram:hover {
+            color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
+        }
+
+        .fa-facebook-f:hover {
+            color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
+        }
+        .fab, .fas {
+    transition: color .3s ease;
+    margin: 0 1rem; /* Añade margen a los íconos */
+}
+
+.fa-instagram:hover {
+    color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366; /* Cambia esto para ajustar el color de WhatsApp al pasar el cursor */
+}
+
+.fa-envelope:hover {
+    color: #D44638; /* Cambia esto para ajustar el color de Correo al pasar el cursor */
+}
+
+.icon-link {
+    transition: transform 0.3s ease;
+}
+
+.icon-link:hover {
+    transform: translateY(-5px);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.fa-linkedin:hover {
+        color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="container-fluid">
+        <div class="row">
+
+            <!-- Columna 1: Video -->
+            <div class="col-12 col-md-6 col-lg-4 margin-bottom: 2rem">
+                <video src="./assests/VIDEO_SECUANCIA DE FOTOS PARA WEB_rápido.mp4" autoplay loop muted></video>
+            </div>
+
+            <!-- Columna 2: Contenido Central -->
+            <div class="col-12 col-md-6 col-lg-4 text-center bg-navbar">
+                <!-- Logo -->
+                <img class="logo" src="./assests/GRÁFICA_PNG/INFO PORTADA/Logo a.rodar_negro_png.png" alt="Logo de A.Rodar FoodFilm" style="margin-bottom: 4rem;">
+            
+                <!-- Títulos y líneas de separación -->
+                <h1 style="margin-bottom: 4rem; margin-top: 2rem;">Producciones</h1>
+                <hr>
+                <h2 class="strong" style="margin-bottom: 2rem;">Audiovisuales y Fotográficas</h2>
+                <hr>
+                <h2 style="margin-bottom: 2rem;">Gastronómicas</h2>
+                <hr style="margin-bottom: 6rem;">
+            
+<!-- Iconos de redes sociales -->
+<div class="icon-container">
+    <a href="https://www.instagram.com/a.rodar.foodfilm/" target="_blank" class="icon-link">
+        <i class="fab fa-instagram fa-lg"></i>
+    </a>
+    <a href="https://www.facebook.com/a.rodar.foodfilm" target="_blank" class="icon-link">
+        <i class="fab fa-facebook-f fa-lg"></i>
+    </a>
+    <a href="https://wa.me/+5493434061355" target="_blank" class="icon-link"> <!-- Reemplaza 1234567890 con tu número de WhatsApp -->
+        <i class="fab fa-whatsapp fa-lg"></i>
+    </a>
+    <a href="mailto:arodarfoodfilm@gmail.com" target="_blank" class="icon-link">
+        <i class="fas fa-envelope fa-lg"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/diego-gesualdi-a23b2121" target="_blank" class="icon-link">
+        <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+</div>
+            
+                <!-- Enlaces a otras secciones -->
+                <p style="margin-top: 6rem;">
+                    <a href="./componentes/nosotros.html">Nosotros</a> | 
+                    <a href="./componentes/clientes.html">Clientes</a> 
+                </p>
+            </div>
+
+            <!-- Columna 3: Video -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <video src="./assests/VIDEO_SECUANCIA DE FOTOS PARA WEB_rápido.mp4" autoplay loop muted></video>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
