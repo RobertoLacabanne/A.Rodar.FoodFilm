@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajos para estrella-del-parana</title>
     <!-- Importando Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <!-- Importando AOS CSS -->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="preload" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Importando lightbox CSS -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <style>
         body {
             background: url('../../assests/fondo-papel-beige-simple-artesania-bricolaje.jpg') no-repeat center center fixed; 
@@ -293,10 +298,12 @@ h2,p {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 
     <script>
-        AOS.init();
         function goBack() {
             window.history.back();
         }
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init();
+        });
     </script>
 </body>
 </html>
