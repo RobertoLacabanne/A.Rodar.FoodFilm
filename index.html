@@ -16,77 +16,79 @@
             width: 100%;  /* Cambia esto para ajustar el tamaño del logo */
             margin-top: 4rem;
         }
-
+        
         /* Establece el ancho y la altura de los vídeos al 100% */
         video {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-
+        
         /* Estilos para los enlaces */
         a {
             color: #000;  /* Cambia esto para ajustar el color del texto */
             text-decoration: none;
             transition: color .3s ease;
         }
-
+        
         a:hover {
             color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
         }
 
         /* Estilos para los hr */
         hr {
-            border-top: 3px solid black;  /* Cambia esto para ajustar el grosor y color de los hr */
-        }
-
+    border-top: 3px solid black;
+    width: 40%; /* Ajusta esto para cambiar el ancho del hr */
+    margin: 0 auto; /* Centra el hr en la página */
+}
+        
         /* Estilos para dispositivos más grandes */
         @media (min-width: 768px) {
             .logo {
                 width: 50%;
             }
         }
-
+        
         /* Estilo para la segunda columna */
         .bg-navbar {
-            background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
+            background-color: #ffffff;  /* Cambia esto para ajustar el color de fondo */
         }
-
+        
         /* Estilos para las fuentes */
         body {
             font-family: 'Roboto', Arial, sans-serif;
         }
-
+        
         h1 {
             font-weight: normal;
         }
-
+        
         h2 {
             font-weight: normal;
             margin-bottom: 1rem;
         }
-
+        
         h2.strong {
             font-weight: bold;
         }
-
+        
         /* Estilos para los íconos de redes sociales */
         .fab {
             transition: color .3s ease;
         }
-
+        
         .fa-instagram:hover {
             color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
         }
-
+        
         .fa-facebook-f:hover {
             color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
         }
         .fab, .fas {
-    transition: color .3s ease;
-    margin: 0 1rem; /* Añade margen a los íconos */
-}
-
+            transition: color .3s ease;
+            margin: 0 1rem; /* Añade margen a los íconos */
+        }
+        
 .fa-instagram:hover {
     color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
 }
@@ -113,14 +115,14 @@
 }
 
 .icon-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 6rem; /* Anteriormente era 4rem */
-        }
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem; /* Anteriormente era 4rem */
+}
 .fa-linkedin:hover {
-        color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
-    }
-    /* Estilos para los enlaces */
+    color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
+}
+/* Estilos para los enlaces */
 a {
     color: #000;  /* Cambia esto para ajustar el color del texto */
     text-decoration: none;
@@ -128,6 +130,7 @@ a {
     font-weight: 700; /* Aumenta la negrita para que los enlaces sean más notorios */
     padding: 0.5rem 0; /* Añade algo de relleno alrededor de los enlaces */
 }
+
 
 a:hover {
     color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
@@ -149,6 +152,9 @@ a:hover {
     background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
     padding: 2rem 0; /* Añade algo de relleno alrededor del contenido para un diseño más minimalista */
 }
+body {
+            background-color: #ffffff;
+        }
 
 
     </style>
@@ -164,17 +170,17 @@ a:hover {
             </div>
 
             <!-- Columna 2: Contenido Central -->
-            <div class="col-12 col-md-6 col-lg-4 text-center bg-navbar">
+            <div class="col-12 col-md-6 col-lg-4 text-center ">
                 <!-- Logo -->
                 <img class="logo" src="./assests/GRÁFICA_PNG/INFO PORTADA/Logo a.rodar_negro_png.png" alt="Logo de A.Rodar FoodFilm" style="margin-bottom: 4rem;">
             
                 <!-- Títulos y líneas de separación -->
-                <h1 style="margin-bottom: 4rem; margin-top: 2rem; ">Producciones</h1>
-                <hr>
+                <h1 style="margin-bottom: 2rem; margin-top: 2rem; ">Producciones</h1>
+                <hr style="margin-bottom: 2rem;">
                 <h2 class="strong" style="margin-bottom: 2rem;">Audiovisuales y Fotográficas</h2>
 
-                <h2 style="margin-bottom: 2rem;">Gastronómicas</h2>
-                <hr style="margin-bottom: 6rem;">
+                <hr style="margin-bottom: 2rem;">
+                <h2 style="margin-bottom: 2rem; font-size: 36px;">Gastronómicas</h2>
             
                 
                 <!-- Enlaces a otras secciones -->
