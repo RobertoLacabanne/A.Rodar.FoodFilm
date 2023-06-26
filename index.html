@@ -14,6 +14,7 @@
         /* Ajusta el tamaño del logo */
         .logo {
             width: 100%;  /* Cambia esto para ajustar el tamaño del logo */
+            margin-top: 4rem;
         }
 
         /* Establece el ancho y la altura de los vídeos al 100% */
@@ -104,7 +105,7 @@
 
 .icon-link {
     transition: transform 0.3s ease;
-    font-size: 1em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
+    font-size: 1.2em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
 }
 
 .icon-link:hover {
@@ -112,13 +113,43 @@
 }
 
 .icon-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
+            display: flex;
+            justify-content: center;
+            margin-top: 6rem; /* Anteriormente era 4rem */
+        }
 .fa-linkedin:hover {
         color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
     }
+    /* Estilos para los enlaces */
+a {
+    color: #000;  /* Cambia esto para ajustar el color del texto */
+    text-decoration: none;
+    transition: color .3s ease;
+    font-weight: 700; /* Aumenta la negrita para que los enlaces sean más notorios */
+    padding: 0.5rem 0; /* Añade algo de relleno alrededor de los enlaces */
+}
+
+a:hover {
+    color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
+    transform: scale(1.1); /* Añade una pequeña animación al pasar el cursor */
+}
+
+/* Estilos para los íconos de redes sociales */
+.fab, .fas {
+    transition: color .3s ease, transform .3s ease; /* Añade una animación al color y la transformación */
+    margin: 0 1.5rem; /* Añade más margen a los íconos */
+}
+
+.icon-link:hover {
+    transform: translateY(-5px); /* Añade una animación al pasar el cursor */
+}
+
+/* Estilo para la segunda columna */
+.bg-navbar {
+    background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
+    padding: 2rem 0; /* Añade algo de relleno alrededor del contenido para un diseño más minimalista */
+}
+
 
     </style>
 </head>
@@ -145,30 +176,30 @@
                 <h2 style="margin-bottom: 2rem;">Gastronómicas</h2>
                 <hr style="margin-bottom: 6rem;">
             
-<!-- Iconos de redes sociales -->
-<div class="icon-container">
-    <a href="https://www.instagram.com/a.rodar.foodfilm/" target="_blank" class="icon-link">
-        <i class="fab fa-instagram fa-lg"></i>
-    </a>
-    <a href="https://www.facebook.com/a.rodar.foodfilm" target="_blank" class="icon-link">
-        <i class="fab fa-facebook-f fa-lg"></i>
-    </a>
-    <a href="https://wa.me/+5493434061355" target="_blank" class="icon-link"> <!-- Reemplaza 1234567890 con tu número de WhatsApp -->
-        <i class="fab fa-whatsapp fa-lg"></i>
-    </a>
-    <a href="mailto:arodarfoodfilm@gmail.com" target="_blank" class="icon-link">
-        <i class="fas fa-envelope fa-lg"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/diego-gesualdi-a23b2121" target="_blank" class="icon-link">
-        <i class="fab fa-linkedin fa-lg"></i>
-    </a>
-</div>
-            
+                
                 <!-- Enlaces a otras secciones -->
                 <p style="margin-top: 6rem;">
                     <a href="./componentes/nosotros.html">Nosotros</a> | 
                     <a href="./componentes/clientes.html">Clientes</a> 
                 </p>
+                <!-- Iconos de redes sociales -->
+                <div class="icon-container">
+                    <a href="https://www.instagram.com/a.rodar.foodfilm/" target="_blank" class="icon-link">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.facebook.com/a.rodar.foodfilm" target="_blank" class="icon-link">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a href="https://wa.me/+5493434061355" target="_blank" class="icon-link"> <!-- Reemplaza 1234567890 con tu número de WhatsApp -->
+                        <i class="fab fa-whatsapp fa-lg"></i>
+                    </a>
+                    <a href="mailto:arodarfoodfilm@gmail.com" target="_blank" class="icon-link">
+                        <i class="fas fa-envelope fa-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/diego-gesualdi-a23b2121" target="_blank" class="icon-link">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                </div>
             </div>
 
             <!-- Columna 3: Video -->

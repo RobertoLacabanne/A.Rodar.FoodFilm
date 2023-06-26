@@ -88,15 +88,131 @@ p {
 
     .icon-link i {
         font-size: 1.5em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
+        margin-top: 2rem;
     }
     .fa-linkedin:hover {
         color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
     }
     p {
     font-size: 20px; /* Esto hace que el texto sea más grande. Ajusta el número según sea necesario */
-    margin-bottom: 20px;  /* Ajusta este valor para cambiar el espacio entre párrafos */
-    text-align: left;  /* Esto alinea el texto a la izquierda */
+    margin-bottom: 30px;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    text-align: justify;  /* Esto justifica el texto */
+
 }
+body {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        /* Estilo para la segunda columna */
+        .bg-navbar {
+            background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
+        }
+
+        /* Estilos para las fuentes */
+        h2 {
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem; /* Añade margen en la parte superior de los íconos */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior de los íconos */
+        }
+
+        .icon-link {
+            transition: transform 0.3s ease;
+            margin: 0 1rem; /* Añade margen a los íconos */
+        }
+
+        .icon-link:hover {
+            transform: translateY(-5px);
+        }
+
+        .navbar-links p {
+            margin-top: 6rem;
+        }
+
+        /* Estilo para el logo */
+        .logo {
+            margin-top: 4rem; /* Añade margen en la parte superior del logo */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior del logo */
+        }
+
+        /* Añade margen en la parte inferior del título y párrafos */
+        h2, p {
+            margin-bottom: 4rem;
+        }
+
+        a {
+            color: #000;  /* Cambia esto para ajustar el color del texto */
+            text-decoration: none;
+            transition: color .3s ease;
+        }
+
+        a:hover {
+            color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
+        }
+        .logo {
+            width: 50%;  /* Cambia esto para ajustar el tamaño del logo */
+        }
+        .fa-instagram:hover {
+    color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366; /* Cambia esto para ajustar el color de WhatsApp al pasar el cursor */
+}
+
+.fa-envelope:hover {
+    color: #D44638; /* Cambia esto para ajustar el color de Correo al pasar el cursor */
+}
+p {
+        margin-bottom: 1rem;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    }
+
+    .icon-link i {
+        font-size: 1.5em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
+        margin-top: 2rem;
+    }
+    .fa-linkedin:hover {
+        color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
+    }
+    p {
+    font-size: 20px; /* Esto hace que el texto sea más grande. Ajusta el número según sea necesario */
+    margin-bottom: 30px;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    text-align: justify;  /* Esto justifica el texto */
+
+}
+.navbar-links a {
+    padding: 0.5rem 0; /* Añade algo de relleno alrededor de los enlaces */
+    font-weight: 700; /* Aumenta la negrita para que los enlaces sean más notorios */
+}
+
+.navbar-links a:hover {
+    transform: scale(1.1); /* Añade una pequeña animación al pasar el cursor */
+    color: #555; /* Ajusta el color del texto al pasar el cursor */
+}
+.icon-link {
+    transition: color .3s ease, transform .3s ease; /* Añade una animación al color y la transformación */
+    margin: 0 1.5rem; /* Añade más margen a los íconos */
+}
+.bg-navbar {
+    padding: 2rem 0; /* Añade algo de relleno alrededor del contenido para un diseño más minimalista */
+}
+#acerca p {
+    padding: 0 2rem; /* Añade margen a los lados del texto, ajusta el valor según necesites */
+}
+.navbar-links {
+            margin-top: 4rem;
+        }
+
+
 
 
     </style>
@@ -122,6 +238,12 @@ p {
                 <p>Nuestro equipo se compone de diseñadores, fotógrafos, videografos, foodstyling, chefs, webmasters y comunicadores.</p>
                 <p>Nuestro objetivo es acompañarte en el desarrollo de la imagen de tu empresa o producto, el posicionamiento de la marca y la conexión con el cliente.</p>
 
+                
+                <!-- Enlaces a otras secciones -->
+                <div class="navbar-links">
+                    <a href="../index.html">Inicio</a> | 
+                    <a href="./clientes.html">Clientes</a> 
+                </div>
                 <!-- Iconos de redes sociales -->
                 <div class="icon-container">
                     <a href="https://www.instagram.com/a.rodar.foodfilm/" target="_blank" class="icon-link">
@@ -139,14 +261,6 @@ p {
                     <a href="https://www.linkedin.com/in/diego-gesualdi-a23b2121" target="_blank" class="icon-link">
                         <i class="fab fa-linkedin fa-lg"></i>
                     </a>
-                </div>
-
-                <!-- Enlaces a otras secciones -->
-                <div class="navbar-links">
-                    
-                        <a href="../index.html">Inicio</a> | 
-                        <a href="./clientes.html">Clientes</a> 
-                    
                 </div>
             </div>
 
