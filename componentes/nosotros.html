@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A.Rodar FoodFilm</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        /* Estilo para la segunda columna */
+        .bg-navbar {
+            background-color: #f8f9fa;  /* Cambia esto para ajustar el color de fondo */
+        }
+
+        /* Estilos para las fuentes */
+        h2 {
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem; /* Añade margen en la parte superior de los íconos */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior de los íconos */
+        }
+
+        .icon-link {
+            transition: transform 0.3s ease;
+            margin: 0 1rem; /* Añade margen a los íconos */
+        }
+
+        .icon-link:hover {
+            transform: translateY(-5px);
+        }
+
+        .navbar-links p {
+            margin-top: 6rem;
+        }
+
+        /* Estilo para el logo */
+        .logo {
+            margin-top: 4rem; /* Añade margen en la parte superior del logo */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior del logo */
+        }
+
+        /* Añade margen en la parte inferior del título y párrafos */
+        h2, p {
+            margin-bottom: 4rem;
+        }
+
+        a {
+            color: #000;  /* Cambia esto para ajustar el color del texto */
+            text-decoration: none;
+            transition: color .3s ease;
+        }
+
+        a:hover {
+            color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
+        }
+        .logo {
+            width: 50%;  /* Cambia esto para ajustar el tamaño del logo */
+        }
+        .fa-instagram:hover {
+    color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366; /* Cambia esto para ajustar el color de WhatsApp al pasar el cursor */
+}
+
+.fa-envelope:hover {
+    color: #D44638; /* Cambia esto para ajustar el color de Correo al pasar el cursor */
+}
+p {
+        margin-bottom: 1rem;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    }
+
+    .icon-link i {
+        font-size: 1.5em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
+        margin-top: 2rem;
+    }
+    .fa-linkedin:hover {
+        color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
+    }
+    p {
+    font-size: 20px; /* Esto hace que el texto sea más grande. Ajusta el número según sea necesario */
+    margin-bottom: 30px;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    text-align: justify;  /* Esto justifica el texto */
+
+}
+body {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        /* Estilo para la segunda columna */
+        .bg-navbar {
+            background-color: #ffffff;  /* Cambia esto para ajustar el color de fondo */
+        }
+
+        /* Estilos para las fuentes */
+        h2 {
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem; /* Añade margen en la parte superior de los íconos */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior de los íconos */
+        }
+
+        .icon-link {
+            transition: transform 0.3s ease;
+            margin: 0 1rem; /* Añade margen a los íconos */
+        }
+
+        .icon-link:hover {
+            transform: translateY(-5px);
+        }
+
+        .navbar-links p {
+            margin-top: 6rem;
+        }
+
+        /* Estilo para el logo */
+        .logo {
+            margin-top: 4rem; /* Añade margen en la parte superior del logo */
+            margin-bottom: 4rem; /* Añade margen en la parte inferior del logo */
+        }
+
+        /* Añade margen en la parte inferior del título y párrafos */
+        h2, p {
+            margin-bottom: 4rem;
+        }
+
+        a {
+            color: #000;  /* Cambia esto para ajustar el color del texto */
+            text-decoration: none;
+            transition: color .3s ease;
+        }
+
+        a:hover {
+            color: #777;  /* Cambia esto para ajustar el color del texto al pasar el cursor */
+        }
+        .logo {
+            width: 50%;  /* Cambia esto para ajustar el tamaño del logo */
+        }
+        .fa-instagram:hover {
+    color: #E4405F;  /* Cambia esto para ajustar el color de Instagram al pasar el cursor */
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;  /* Cambia esto para ajustar el color de Facebook al pasar el cursor */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366; /* Cambia esto para ajustar el color de WhatsApp al pasar el cursor */
+}
+
+.fa-envelope:hover {
+    color: #D44638; /* Cambia esto para ajustar el color de Correo al pasar el cursor */
+}
+p {
+        margin-bottom: 1rem;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    }
+
+    .icon-link i {
+        font-size: 1.5em;  /* Ajusta este valor para cambiar el tamaño de los íconos de las redes sociales */
+        margin-top: 2rem;
+    }
+    .fa-linkedin:hover {
+        color: #0e76a8;  /* Cambia esto para ajustar el color de LinkedIn al pasar el cursor */
+    }
+    p {
+    font-size: 20px; /* Esto hace que el texto sea más grande. Ajusta el número según sea necesario */
+    margin-bottom: 50px;  /* Ajusta este valor para cambiar el espacio entre párrafos */
+    text-align: justify;  /* Esto justifica el texto */
+
+}
+.navbar-links a {
+    padding: 0.5rem 0; /* Añade algo de relleno alrededor de los enlaces */
+    font-weight: 700; /* Aumenta la negrita para que los enlaces sean más notorios */
+}
+
+.navbar-links a:hover {
+    transform: scale(1.1); /* Añade una pequeña animación al pasar el cursor */
+    color: #555; /* Ajusta el color del texto al pasar el cursor */
+}
+.icon-link {
+    transition: color .3s ease, transform .3s ease; /* Añade una animación al color y la transformación */
+    margin: 0 1.5rem; /* Añade más margen a los íconos */
+}
+.bg-navbar {
+    padding: 2rem 0; /* Añade algo de relleno alrededor del contenido para un diseño más minimalista */
+}
+#acerca p {
+    padding: 0 5rem; /* Añade margen a los lados del texto, ajusta el valor según necesites */
+}
+.navbar-links {
+            margin-top: 4rem;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Sección de Acerca de Nosotros -->
+    <section id="acerca" class="container-fluid">
+        <div class="row">
+            <!-- Columna 1: Video -->
+            <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <video class="img-fluid" src="../assests/VIDEO WEB 2024_LADO IZQUIERDO_baja.mp4" autoplay loop muted></video>
+            </div>
+
+            <!-- Columna 2: Logo y Contenido de texto -->
+            <div class="col-12 col-md-6 col-lg-4 text-center bg-navbar">
+                <!-- Logo -->
+                <img class="logo" src="../assests/GRÁFICA_PNG/INFO PORTADA/Logo a.rodar_negro_png.png" alt="Logo de A.Rodar FoodFilm" style="margin-bottom: 4rem;">
+
+                <!-- Títulos y párrafos -->
+                <p>Somos un equipo de profesionales apasionados por la imagen y la gastronomía.
+                    Hacemos Fotos y Videos enfocados en el concepto, el arte y el estilismo de cada uno de los proyectos en los que nos involucramos.
+                    Nuestro objetivo es acompañarte en el desarrollo y el posicionamiento de la imagen de tu empresa o producto.
+                    Para más información y asesoramiento, no dudes en comunicarte con nosotoros!</p>
+
+
+                
+                <!-- Enlaces a otras secciones -->
+                <div class="navbar-links">
+                    <a href="../index.html">Inicio</a> | 
+                    <a href="./clientes.html">Clientes</a> 
+                </div>
+                <!-- Iconos de redes sociales -->
+                <div class="icon-container">
+                    <a href="https://www.instagram.com/a.rodar.foodfilm/" target="_blank" class="icon-link">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.facebook.com/a.rodar.foodfilm" target="_blank" class="icon-link">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a href="https://wa.me/+5493434061355" target="_blank" class="icon-link"> <!-- Reemplaza 1234567890 con tu número de WhatsApp -->
+                        <i class="fab fa-whatsapp fa-lg"></i>
+                    </a>
+                    <a href="mailto:arodarfoodfilm@gmail.com" target="_blank" class="icon-link">
+                        <i class="fas fa-envelope fa-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/diego-gesualdi-a23b2121" target="_blank" class="icon-link">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna 3: Video -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <video class="img-fluid" src="../assests/VIDEO WEB_LADO DERECHO_baja.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
